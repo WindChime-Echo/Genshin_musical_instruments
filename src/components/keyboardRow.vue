@@ -1,5 +1,5 @@
 <template>
-  <music-key :item="object"></music-key>
+
 </template>
 
 <script>
@@ -14,7 +14,13 @@ export default {
   },
   data() {
     return {
-      object: {key:'value'}
+      object: {key:'value'},
+      musicalInstrumentBag: {
+        id: '0001',
+        address: '../../public/music/风物之诗琴',
+        
+
+      }
     }
   }
 }
