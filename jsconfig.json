@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
-    //目标代码格式
     "target": "es5",
     "module": "esnext",
-    //路径开始位置
     "baseUrl": "./",
-    //模块加载方式
     "moduleResolution": "node",
     "paths": {
       "@/*": [
