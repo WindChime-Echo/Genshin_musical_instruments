@@ -1,5 +1,5 @@
 <template>
-  <div class="pianoKeys" v-on:keydown="playAudio">
+  <div class="pianoKeys" @keydown="playAudio">
     <div class="note">
       <img :src="object.nodeUrl" alt="">
     </div>
@@ -23,12 +23,15 @@ export default {
         name:'do',
         src: '../../public/music/风物之诗琴/2/do.wav',
         nodeUrl:'',
+        keyDown:'q'
 
       }
     }
   },
   methods: {
-    playAudio() {
+    playAudio(event) {
+      const keyCode = event.keyCode
+      console.log(keyCode)
       const audio = document.querySelector('audio')
       audio.currentTime = 0;
       audio.play();

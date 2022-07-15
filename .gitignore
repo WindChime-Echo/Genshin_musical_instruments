@@ -2,6 +2,8 @@
 node_modules
 /dist
 
+# 忽略思路文件
+Genshin.md
 
 # local env files
 .env.local

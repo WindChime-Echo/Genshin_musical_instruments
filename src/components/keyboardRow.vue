@@ -1,5 +1,5 @@
 <template>
-
+  <music-key></music-key>
 </template>
 
 <script>
@@ -18,7 +18,7 @@ export default {
       musicalInstrumentBag: {
         id: '0001',
         address: '../../public/music/风物之诗琴',
-        
+
 
       }
     }
