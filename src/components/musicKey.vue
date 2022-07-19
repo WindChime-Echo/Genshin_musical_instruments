@@ -1,17 +1,18 @@
 <template>
-  <div class="pianoKeys" @keydown="playAudio">
+  <div class="pianoKeys">
     <div class="note">
-      <img :src="object.nodeUrl" alt="">
+      <img src="./favicon.ico" alt="" >
     </div>
     <div class="scale">
       {{object.name}}
     </div>
-    <audio :src="object.src"></audio>
+    <input type="text" @keyup="playAudio" >
+    <audio @keyup="playAudio" :src="object.src"></audio>
   </div>
 </template>
 
 <script>
-
+import doMusic from '../../public/music/风物之诗琴/2/do.wav'
 export default {
   name: 'musicKey',
   props: {
@@ -21,8 +22,8 @@ export default {
     return {
       object: {
         name:'do',
-        src: '../../public/music/风物之诗琴/2/do.wav',
-        nodeUrl:'',
+        src: doMusic,
+        nodeUrl:'../../public/favicon.ico',
         keyDown:'q'
 
       }
@@ -42,4 +43,5 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>

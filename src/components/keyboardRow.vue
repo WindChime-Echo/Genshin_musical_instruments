@@ -3,6 +3,7 @@
 </template>
 
 <script>
+window.addEventListener("keydown")
 import musicKey from './musicKey.vue'
 export default {
   name: 'keyboardRow',
