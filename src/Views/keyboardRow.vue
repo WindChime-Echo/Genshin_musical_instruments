@@ -1,9 +1,9 @@
 <script setup>
-  
+  import musicKey from './musicKey.vue';
 </script>
 
 <template>
-  <router-view></router-view>
+  <music-key></music-key>
 </template>
 
 <style scoped>
