@@ -10,15 +10,22 @@
     <audio @keyup="playAudio" :src="object.src"></audio>
   </div> -->
   <div class="pianoKey">
-    <audio ref="audio" :src="importUrl"></audio>
+    <audio ref="audio" :src="musicUrl"></audio>
     <button @click="playKey">弹琴</button>
   </div>
 </template> 
 
 <script setup>
-import { onBeforeUpdate, ref } from 'vue'
-import importUrl from '../assets/music/风物之诗琴/2/do.wav' 
-console.log(importUrl)
+import { ref } from 'vue'
+
+// prop
+const props = defineProps({
+  musicUrl: {
+    type: String,
+    default: ''
+  }
+})
+
 
 const audio = ref()
 function playKey() {

@@ -1,0 +1,113 @@
+{
+  "TheThirdRow": {
+    "do": {
+      "name": "do",
+      "url": "@music/风物之诗琴/TheThirdRow/do.wav",
+      "key": "z"
+    },
+    "re": {
+      "name": "re",
+      "url": "@music/风物之诗琴/TheThirdRow/re.wav",
+      "key": "x"
+    },
+    "mi": {
+      "name": "mi",
+      "url": "@music/风物之诗琴/TheThirdRow/mi.wav",
+      "key": "c"
+    },
+    "fa": {
+      "name": "fa",
+      "url": "@music/风物之诗琴/TheThirdRow/fa.wav",
+      "key": "v"
+    },
+    "so": {
+      "name": "so",
+      "url": "@music/风物之诗琴/TheThirdRow/so.wav",
+      "key": "b"
+    },
+    "la": {
+      "name": "la",
+      "url": "@music/风物之诗琴/TheThirdRow/la.wav",
+      "key": "n"
+    },
+    "ti": {
+      "name": "ti",
+      "url": "@music/风物之诗琴/TheThirdRow/ti.wav",
+      "key": "m"
+    }
+  },
+  "FirstLine": {
+    "do": {
+      "name": "do",
+      "url": "@music/风物之诗琴/FirstLine/do.wav",
+      "key": "q"
+    },
+    "re": {
+      "name": "re",
+      "url": "@music/风物之诗琴/FirstLine/re.wav",
+      "key": "w"
+    },
+    "mi": {
+      "name": "mi",
+      "url": "@music/风物之诗琴/FirstLine/mi.wav",
+      "key": "e"
+    },
+    "fa": {
+      "name": "fa",
+      "url": "@music/风物之诗琴/FirstLine/fa.wav",
+      "key": "r"
+    },
+    "so": {
+      "name": "so",
+      "url": "@music/风物之诗琴/FirstLine/so.wav",
+      "key": "t"
+    },
+    "la": {
+      "name": "la",
+      "url": "@music/风物之诗琴/FirstLine/la.wav",
+      "key": "y"
+    },
+    "ti": {
+      "name": "ti",
+      "url": "@music/风物之诗琴/FirstLine/ti.wav",
+      "key": "u"
+    }
+  },
+  "SecondLine": {
+    "do": {
+      "name": "do",
+      "url": "@music/风物之诗琴/SecondLine/do.wav",
+      "key": "a"
+    },
+    "re": {
+      "name": "re",
+      "url": "@music/风物之诗琴/SecondLine/re.wav",
+      "key": "s"
+    },
+    "mi": {
+      "name": "mi",
+      "url": "@music/风物之诗琴/SecondLine/mi.wav",
+      "key": "d"
+    },
+    "fa": {
+      "name": "fa",
+      "url": "@music/风物之诗琴/SecondLine/fa.wav",
+      "key": "f"
+    },
+    "so": {
+      "name": "so",
+      "url": "@music/风物之诗琴/SecondLine/so.wav",
+      "key": "g"
+    },
+    "la": {
+      "name": "la",
+      "url": "@music/风物之诗琴/SecondLine/la.wav",
+      "key": "h"
+    },
+    "ti": {
+      "name": "ti",
+      "url": "@music/风物之诗琴/SecondLine/ti.wav",
+      "key": "j"
+    }
+  }
+}
